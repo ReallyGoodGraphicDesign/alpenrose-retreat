@@ -1,0 +1,238 @@
+/* #region BUTTONS */     
+button, .button {
+        background-color: var(--button-bg);
+        border: none;
+        margin: 0;
+        padding: 0;
+        border-radius: 4px;
+        text-decoration: none;
+        cursor: pointer;
+        line-height: 0;
+        transition: background-color .4s ease;
+        font-weight: bold;
+        border-radius: 4px;
+}  
+button:hover, .button:hover {
+        background: var(--button-bg-hover);
+        color: var(--button-text-hover);
+}
+button:active, .button:active {
+        background: var(--button-bg-active);
+        color: var(--button-text-active);
+}
+.learn-more-button {
+        background-color: var(--button-bg);
+        border: none;
+        margin: 10px 0 0 0;
+        padding: 20px 20px;
+        border-radius: 4px;
+        text-decoration: none;
+        cursor: pointer;
+        line-height: 0;
+        transition: background-color .4s ease;
+        font-weight: bold;
+}  
+button:hover, .button:hover {
+        background: var(--button-bg-hover);
+        color: var(--button-text-hover);
+}
+button:active, .button:active {
+        background: var(--button-bg-active);
+        color: var(--button-text-active);
+}
+/* #endregion BUTTONS */       
+
+/* #region PHOTOS */
+:root {
+        --photo-1: url("assets/01_aurora_halo.jpeg");
+        --photo-2: url("assets/02_blue_river_cabin_day_1.jpeg");
+        --photo-3: url("assets/03_jude_rashmi_veronica.jpeg");
+        --photo-4: url("assets/04_cabin.jpg");
+        --photo-5: url("assets/05_colors.jpg");
+        --photo-6: url("assets/06_creek.jpeg");
+        --photo-7: url("assets/07_dinner.jpeg");
+        --photo-8: url("assets/08_eagles_nest.jpeg");
+        --photo-9: url("assets/09_entire_group.jpg");
+        --photo-10: url("assets/10_fence.jpg");
+        --photo-11: url("assets/11_great_room.jpg");
+        --photo-12: url("assets/12_group_activity.jpg");
+        --photo-13: url("assets/13_lower_bedroom.jpg");
+        --photo-14: url("assets/14_upper_bedroom.jpg");
+        --photo-15: url("assets/15_upper_living_room.jpg");
+        --photo-16: url("assets/16_guest_house.jpg");
+        --photo-17: url("assets/17_guest_house.jpg");
+        --photo-18: url("assets/18_guest_kitchen.jpg");
+        --photo-19: url("assets/19_hiking.jpeg");
+        --photo-20: url("assets/20_hiking.jpeg");
+        --photo-21: url("assets/21_horseback.jpeg");
+        --photo-22: url("assets/22_janine_rashmi.jpeg");
+        --photo-23: url("assets/23_leadership_poses.jpeg");
+        --photo-24: url("assets/24_linda_tish.jpeg");
+        --photo-25: url("assets/25_lodge.jpg");
+        --photo-26: url("assets/26_lodge.jpg");
+        --photo-27: url("assets/27_lodge_and_guest_house.jpg");
+        --photo-28: url("assets/28_main_lodge.jpg");
+        --photo-29: url("assets/29_painting_day.jpeg");
+        --photo-30: url("assets/30_porch.jpeg");
+        --photo-31: url("assets/31_range_at_dusk.jpg");
+        --photo-32: url("assets/32_rashmi_maybelline.jpeg");
+        --photo-33: url("assets/33_sleeping_warrior.jpeg");
+        --photo-34: url("assets/34_sleeping_warrior.jpeg");
+        --photo-35: url("assets/35_smores.jpeg");
+        --photo-36: url("assets/36_teaching_at_guesthouse.jpeg");
+        --photo-37: url("assets/37_tish_on_stump.jpeg");
+        --photo-38: url("assets/38_shutterstock_55724620.jpg");
+}
+/* #endregion PHOTOS */
+
+/* #region COLORS */      
+:root, :root[data-theme='actual'] {
+        --button-bg: rgba(255,255,255,.5);
+        --button-bg-hover: rgba(255,255,255,.7);
+        --button-bg-active: rgba(255,255,255,.9);
+        --button-text: rgba(255,255,255,.5);        
+        --button-text-hover: rgba(255,255,255,.75);        
+        --button-text-active: rgba(255,255,255,1);        
+        --text-color: rgb(0, 0, 0);
+        --html-bg: var(--header-footer-bg);
+        --header-footer-bg: white;
+        /*
+        --header-footer-bg: white;
+
+        --header-footer-bg: rgba(0,0,0,.25);
+
+        --header-footer-bg:
+                linear-gradient(
+                rgba(var(--alpenrose-2-alpha),.25),
+                rgba(var(--alpenrose-2-alpha),.25)), 
+                rgb(255, 255, 255); 
+        */
+        --header-footer-inner-bg: var(--header-footer-bg);
+        --header-footer-left-bg: none;
+        --header-footer-mid-bg: none;
+        --header-footer-right-bg: none;
+        --header-footer-text: rgb(98, 98, 98);
+        --logo-button-bg: none;
+        --logo-button-bg-hover: 
+                linear-gradient(90deg,
+                rgba(var(--alpenrose-2-alpha),.15),
+                rgba(var(--alpenrose-2-alpha),.15)), 
+                rgb(52, 52, 52);
+        --text-panel-a:
+                linear-gradient(
+                rgba(var(--alpenrose-1-alpha),.4),
+                rgba(var(--alpenrose-1-alpha),.4)), 
+                rgb(255, 255, 255);
+        --text-panel-b:
+                linear-gradient(
+                rgba(var(--alpenrose-2-alpha),.4),
+                rgba(var(--alpenrose-2-alpha),.4)), 
+                rgb(255, 255, 255);
+        --text-panel-c:
+                linear-gradient(
+                rgba(var(--alpenrose-3-alpha),.4),
+                rgba(var(--alpenrose-3-alpha),.4)), 
+                rgb(255, 255, 255);
+}
+
+:root[data-theme='test'] {
+        --button-bg: rgba(255,200,9,1);
+        --button-bg-hover: rgb(96, 183, 88);
+        --button-bg-active: rgba(0,255,255,1);
+        --button-text: rgba(255,0,111,1);
+        --button-text-hover: rgba(44,188,88,1);
+        --button-text-active: rgba(255,255,255,1);        
+        --text-color: rgb(92, 43, 67);
+        --body-bg: 
+                linear-gradient(
+                rgba(var(--alpenrose-1-alpha),.1),
+                rgba(var(--alpenrose-1-alpha),.1)), 
+                rgb(40, 40, 40);
+        --header-footer-bg: red;
+        --header-footer-inner-bg: rgb(200, 94, 112);
+        --header-footer-left-bg: rgb(169, 26, 26);
+        --header-footer-mid-bg: rgb(81, 227, 71);
+        --header-footer-right-bg: rgb(175, 20, 213);
+        --header-footer-text: white;
+        --logo-button-bg: magenta;
+        --logo-button-bg-hover: skyblue;
+        --text-panel: red;
+}
+
+/* #region MASTER_COLORS */       
+:root {
+        /* COPY THESE FROM .ASE ONLY */
+        --alpenrose-1: rgb(196,145,134);
+        --alpenrose-1-alpha: 196,145,134;
+        --alpenrose-2: rgb(141,153,139);
+        --alpenrose-2-alpha: 141,153,139;
+        --alpenrose-3: rgb(217,194,89);
+        --alpenrose-3-alpha: 217,194,89;
+
+}
+/* #endregion MASTER_COLORS */       
+/* #endregion COLORS */       
+
+/* #region FONT_VARIABLES */       
+:root {
+  --font-heading: "Figtree", sans-serif;
+  --font-body: "Figtree", sans-serif;
+
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semi-bold: 600;
+  --weight-bold: 700;
+}
+/* #endregion FONT_VARS_IN_ROOT */       
+
+/* #region TEXT_STYLES */
+
+body {
+        font-family: var(--font-body);
+        font-weight: var(--weight-regular);
+        line-height: 1.6;
+        font-size: 16px;
+        color: var(--text-color);
+        margin: 0;
+}
+ul {
+        margin-top: .5rem;
+        margin-bottom: 2rem;
+}
+h2 {
+        color: inherit;
+        font-family: var(--font-heading);
+        font-weight: var(--weight-semi-bold);
+        font-size: 1.8rem;
+        line-height: 1;
+        margin: 0;
+}
+h3 {
+        color: inherit;
+        font-family: var(--font-heading);
+        font-weight: var(--weight-semi-bold);
+        font-size: 1.8rem;
+        line-height: 1;
+        margin: 0;
+}
+h4 {
+        color: inherit;
+        font-family: var(--font-heading);
+        font-weight: var(--weight-semi-bold);
+        font-size: 1.8rem;
+        line-height: 1;
+        margin: 0;
+}
+.button-text {
+        background: var(--button-bg);
+        color: var(--button-text);
+        font-family: var(--font-body);
+        font-weight: var(--weight-bold);
+        font-size: 0.875rem;
+        text-decoration: none;
+        margin-top: 0;
+        margin-bottom: 0;
+}
+/* #endregion TEXT_VAR_STYLES */       
+
