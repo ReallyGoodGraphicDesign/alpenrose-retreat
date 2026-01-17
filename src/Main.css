@@ -19,7 +19,6 @@ If a row contains a text box and no image panels, you can optionally assign a he
 }
 @media (max-width: 600px) {
 .main {
-        display: none;        
         opacity: 1;
 }
 }
