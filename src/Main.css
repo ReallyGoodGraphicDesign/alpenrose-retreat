@@ -875,7 +875,7 @@ If a row contains a text box and no image panels, you can optionally assign a he
 @media (max-width: 600px) {
 .text-panel {
         opacity: 1;
-        padding: 4px;
+        padding: 10px;
 }
 }
 .section-title {

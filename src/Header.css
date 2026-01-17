@@ -131,6 +131,7 @@
 }
 @media (max-width: 600px) {
 .header-nav {
+        display: none;        
         flex-direction: column;
         align-items: flex-end;
         gap: .32rem;  
