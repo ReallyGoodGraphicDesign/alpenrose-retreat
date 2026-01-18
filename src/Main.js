@@ -10,7 +10,7 @@ return (
         </div>
         <div className="row row-2">
                 <div className="text-panel text-panel-intro" id="introduction">
-                        <h2 className="section-title">Introduction 1716</h2>
+                        <h2 className="section-title">Introduction 1822</h2>
                         <p className="section-text">Step into a space designed for pause, perspective, and possibility. This is an invitation to step away from the noise and reconnect with what matters most. Nothing here is rushed, prescribed, or performative. The experience begins the moment you arrive.</p>
                         <button className="learn-more-button"><p className="learn-more">Learn More</p></button>
                 </div>

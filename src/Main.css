@@ -1,19 +1,19 @@
 /* #region TOP_LEVEL_STUFF_AND_NOTES */
 /*
-
+DESKTOP
 HEIGHT HEIGHT HEIGHT HEIGHT 
 
 If row is all images:
-        -- row must have height attr in pixels (not 'auto'). 
-        -- images can't have 'height' attr. 
+        -- row height: pixels. 
+        -- image height: absent 
 
 If row contains text box only (CHECK IF THIS IS ALSO TRUE FOR MULTIPLE TEXT BOXES):
         -- naturally fit the text contents:
-                -- row: auto. 
-                -- text: absent. 
+                -- row height: auto. 
+                -- text height: absent. 
         -- set row height manually:
                 -- row height: pixels. 
-                -- text-panel: stretch. 
+                -- text height: stretch. 
 
 If row is mixed:
         -- height must be set manually:
@@ -86,6 +86,7 @@ Default width of all indiv image panels is 100%. A row of images w 100% widths w
 @media (max-width: 600px) {
 .row-1 {
         opacity: 1;
+        height: 750px;
 }
 }
 .row-2 {
