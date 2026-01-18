@@ -1,11 +1,17 @@
 /* #region TOP_LEVEL_STUFF_AND_NOTES */
 /*
-DESKTOP
+
 HEIGHT HEIGHT HEIGHT HEIGHT 
 
 If row is all images:
-        -- row height: pixels. 
-        -- image height: absent 
+        -- flex rows (desktop)
+                -- row height: pixels. 
+                -- image height: absent. 
+        -- flex columns (tablet & mobile)
+                -- if you want all images same height
+                        -- row height: pixels (each image height will be equal fraction). 
+
+
 
 If row contains text box only (CHECK IF THIS IS ALSO TRUE FOR MULTIPLE TEXT BOXES):
         -- naturally fit the text contents:
@@ -86,7 +92,6 @@ Default width of all indiv image panels is 100%. A row of images w 100% widths w
 @media (max-width: 600px) {
 .row-1 {
         opacity: 1;
-        height: 750px;
 }
 }
 .row-2 {
@@ -407,6 +412,7 @@ Default width of all indiv image panels is 100%. A row of images w 100% widths w
 @media (max-width: 600px) {
 .panel-2 {
         opacity: 1;
+        height: 150px;
 }
 }
 .panel-3 {
@@ -449,6 +455,7 @@ Default width of all indiv image panels is 100%. A row of images w 100% widths w
 @media (max-width: 600px) {
 .panel-5 {
         opacity: 1;
+        height: 250px;
 }
 }
 .panel-6 {
@@ -617,6 +624,7 @@ Default width of all indiv image panels is 100%. A row of images w 100% widths w
 @media (max-width: 600px) {
 .panel-17 {
         opacity: 1;
+        height: 150px;
 }
 }
 .panel-18 {

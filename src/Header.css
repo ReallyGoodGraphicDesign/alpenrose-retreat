@@ -78,7 +78,9 @@
 }
 @media (max-width: 600px) {
 .header-tdl {
-        display: none;        
+        /*
+        display: none;
+        */
         opacity: 1;
 }
 }

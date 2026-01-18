@@ -8,6 +8,7 @@ return (
         <div className="header-inner">
                 <div className="header-tdl">
                         <h1 className="title">Alpenrose Retreat</h1>
+                        <h1 className="title">1836</h1>
                         <h2 className="date-location">May 30 - June 2</h2>
                         <h2 className="date-location">Kremmling, Colorado</h2>
                 </div>
