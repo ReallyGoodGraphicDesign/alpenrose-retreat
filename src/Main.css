@@ -10,6 +10,10 @@ If row is all images:
         -- flex columns (tablet & mobile)
                 -- if you want all images same height
                         -- row height: pixels (each image height will be equal fraction). 
+                -- if you want specific height each image
+                        -- row height: absent.
+                        -- image height: pixels.
+
 
 
 
@@ -412,7 +416,7 @@ Default width of all indiv image panels is 100%. A row of images w 100% widths w
 @media (max-width: 600px) {
 .panel-2 {
         opacity: 1;
-        height: 150px;
+        height: 350px;
 }
 }
 .panel-3 {
@@ -455,7 +459,7 @@ Default width of all indiv image panels is 100%. A row of images w 100% widths w
 @media (max-width: 600px) {
 .panel-5 {
         opacity: 1;
-        height: 250px;
+        height: 350px;
 }
 }
 .panel-6 {
@@ -624,7 +628,7 @@ Default width of all indiv image panels is 100%. A row of images w 100% widths w
 @media (max-width: 600px) {
 .panel-17 {
         opacity: 1;
-        height: 150px;
+        height: 350px;
 }
 }
 .panel-18 {
