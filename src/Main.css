@@ -11,7 +11,7 @@ If row is all images:
                 -- if you want all images same height
                         -- row height: pixels (each image height will be equal fraction). 
                 -- if you want specific height each image
-                        -- row height: absent.
+                        -- row height: 'auto?????????checking...'.
                         -- image height: pixels.
 
 
@@ -96,6 +96,7 @@ Default width of all indiv image panels is 100%. A row of images w 100% widths w
 @media (max-width: 600px) {
 .row-1 {
         opacity: 1;
+        height: auto;
 }
 }
 .row-2 {

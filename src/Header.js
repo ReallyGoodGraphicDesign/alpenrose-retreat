@@ -7,7 +7,7 @@ return (
 <header className="header">
         <div className="header-inner">
                 <div className="header-tdl">
-                        <h1 className="title">Alpenrose 1902</h1>
+                        <h1 className="title">Alpenrose 1906</h1>
                         <h2 className="date-location">May 30 - June 2</h2>
                         <h2 className="date-location">Kremmling, Colorado</h2>
                 </div>
