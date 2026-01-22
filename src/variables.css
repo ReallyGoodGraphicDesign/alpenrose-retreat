@@ -16,9 +16,11 @@ button, .button {
         font-weight: bold;
         border-radius: 4px;
 }  
+@media (hover: hover) and (pointer: fine) {
 button:hover, .button:hover {
         background-color: var(--button-bg-hover);
         color: var(--button-text-hover);
+}
 }
 button:active, .button:active {
         background-color: var(--button-bg-active);
@@ -58,9 +60,11 @@ button:active, .button:active {
         margin: 10px 0 10px 0;
 }
 }
+@media (hover: hover) and (pointer: fine) {
 .learn-more-button-alpenrose:hover {
         background: var(--learn-more-button-alpenrose-bg-hover);
-}  
+} 
+}
 .learn-more-button-alpenrose:active {
         background: var(--learn-more-button-alpenrose-bg-active);
 }  
@@ -87,12 +91,16 @@ button:active, .button:active {
         right: 6px;
 }
 }
+@media (hover: hover) and (pointer: fine) {
+  .list_close_btn:hover {
+    background-color: var(--list_close_btn_bg_hover);
+    color: var(--list_close_btn_text_hover);
+  }
+}
 .list_close_btn:active {
         background-color: var(--list_close_btn_bg_active);
         color: var(--list_close_btn_text_active);
 }
-
-
 @media (min-width: 601px) and (max-width: 1024px) {
 .list_close_btn:active {
         opacity: 1;
@@ -101,7 +109,6 @@ button:active, .button:active {
         top: 6px;
         right: 6px;}
 }
-
 @media (max-width: 600px) {
 .list_close_btn:active {
         opacity: 1;
@@ -111,40 +118,6 @@ button:active, .button:active {
         right: 6px;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-@media (hover: hover) and (pointer: fine) {
-  .list_close_btn:hover {
-    background-color: var(--list_close_btn_bg_hover);
-    color: var(--list_close_btn_text_hover);
-  }
-}
-
-
-
-
-.list_close_btn:focus:not(:focus-visible) {
-  outline: none;
-}
-
-
-
-
-
-
-
-
-
 
 /* #endregion BUTTONS */       
 
@@ -250,7 +223,6 @@ button:active, .button:active {
                 rgba(var(--alpenrose-3-alpha),.25)), 
                 rgb(255, 255, 255);
 }
-
 :root[data-theme='test'] {
         --button-bg: rgba(255,200,9,1);
         --button-bg-hover: rgb(96, 183, 88);
