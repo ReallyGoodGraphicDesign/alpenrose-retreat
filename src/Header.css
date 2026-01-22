@@ -212,6 +212,7 @@
         text-decoration: none;
         color: var(--header-footer-text);
         font-size: 1rem;
+        margin-top: 3px;
         /*
         color: white;  TESTING 
         */
@@ -257,8 +258,10 @@
 
 .mobile-nav a {
   font-size: 1.5rem;
+  text-transform: uppercase;
   text-decoration: none;
   color: var(--header-footer-text);
+  margin-bottom: 20px;
 }
 /* #endregion HAMBURGER_AND_MOBILE_NAV */
 

@@ -51,7 +51,7 @@ function Header() {
   ))}
 </nav>
 
-        <button className="list_and_close_btns"
+        <button className="list_close_btn"
           onClick={() => setMenuOpen(true)}
           aria-label="Open menu" >
           <i className="bi bi-list"></i>
@@ -60,7 +60,7 @@ function Header() {
 
       {menuOpen && (
         <div className="mobile-nav-overlay">
-          <button className="list_and_close_btns"
+          <button className="list_close_btn"
             onClick={() => setMenuOpen(false)}
             aria-label="Close menu">
             <i className="bi bi-x-lg"></i>

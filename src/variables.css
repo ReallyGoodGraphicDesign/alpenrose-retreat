@@ -9,16 +9,19 @@ button, .button {
         text-decoration: none;
         cursor: pointer;
         line-height: 0;
-        transition: background-color .4s ease;
+        transition: background-color .5s ease, color .5s ease;
+        /*
+        transition: color 2s ease;
+        */
         font-weight: bold;
         border-radius: 4px;
 }  
 button:hover, .button:hover {
-        background: var(--button-bg-hover);
+        background-color: var(--button-bg-hover);
         color: var(--button-text-hover);
 }
 button:active, .button:active {
-        background: var(--button-bg-active);
+        background-color: var(--button-bg-active);
         color: var(--button-text-active);
 }
 .learn-more-button {
@@ -61,27 +64,35 @@ button:active, .button:active {
 .learn-more-button-alpenrose:active {
         background: var(--learn-more-button-alpenrose-bg-active);
 }  
-.list_and_close_btns {
+.list_close_btn {
+        background-color: var(--list_close_btn_bg);
+        color: var(--list_close_btn_text);
         display: none;
         font-size: 2.5rem;
 }
+.list_close_btn:hover {
+        background-color: var(--list_close_btn_bg_hover);
+        color: var(--list_close_btn_text_hover);
+}
+.list_close_btn:active {
+        background-color: var(--list_close_btn_bg_active);
+        color: var(--list_close_btn_text_active);
+}
 @media (min-width: 601px) and (max-width: 1024px) {
-.list_and_close_btns {
+.list_close_btn {
         opacity: 1;
         display: block;
         position: absolute;
-        top: 24px;
-        right: 24px;
         top: 6px;
-        right: 8px;}
+        right: 6px;}
 }
 @media (max-width: 600px) {
-.list_and_close_btns {
+.list_close_btn {
         opacity: 1;
         display: block;
         position: absolute;
         top: 6px;
-        right: 8px;
+        right: 6px;
 }
 }
 
@@ -135,15 +146,21 @@ button:active, .button:active {
 
 /* #region COLORS */      
 :root, :root[data-theme='actual'] {
-        --button-bg: rgba(255,255,255,.55);
-        --button-bg-hover: rgba(255,255,255,.95);
-        --button-bg-active: rgba(187, 187, 187,.3);
+        --button-bg: rgba(var(--alpenrose-1-alpha),.25);
+        --button-bg-hover: rgba(var(--alpenrose-1-alpha),.25);
+        --button-bg-active: rgba(var(--alpenrose-1-alpha),.25);
         --button-text: var(--header-footer-text);        
         --button-text-hover: rgb(255, 255, 255);        
         --button-text-active: rgba(255,255,255,1);
         --learn-more-button-alpenrose-bg: #d982b346; 
         --learn-more-button-alpenrose-bg-hover: #d982b36f; 
         --learn-more-button-alpenrose-bg-active: #d982b3ba; 
+        --list_close_btn_bg: rgba(var(--alpenrose-1-alpha),0);
+        --list_close_btn_bg_hover: rgba(var(--alpenrose-1-alpha),.3);
+        --list_close_btn_bg_active: rgba(var(--alpenrose-1-alpha),.7);
+        --list_close_btn_text: rgb(185, 185, 185);
+        --list_close_btn_text_hover: rgb(255, 255, 255);
+        --list_close_btn_text_active: rgb(255, 255, 255);
         --text-color: rgb(0, 0, 0);
         --html-bg: var(--header-footer-bg);
         --header-footer-bg: white;
