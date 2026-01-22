@@ -1070,7 +1070,7 @@ Default width of all indiv image panels is 100%. A row of images w 100% widths w
         color: var(--header-footer-text);
         font-size: 1.125rem;
         line-height: 1.25;
-        margin: 0;
+        margin: 0 0 20px 0;
         padding: 0;
 }
 @media (min-width: 601px) and (max-width: 1024px) {
