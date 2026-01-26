@@ -895,7 +895,7 @@
 @media (max-width: 600px) {
 .section-title-alpenrose {
         opacity: 1;
-        font-size: 3rem;
+        font-size: 3.5rem;
         margin: 0 0 10px 0;
 }
 }
@@ -942,13 +942,16 @@
 .text-panel-investment {
         background: var(--text-panel-a);
         width: 100%;
+        height: stretch;
 }
 .text-panel-accommodations {
         background: var(--text-panel-b);
         width: 100%;
+        height: stretch;
 }
 .text-panel-logistics {
         background: var(--text-panel-c);
         width: 100%;
+        height: stretch;
 }
 /* #endregion TEXT_PANEL_UNIQUETIES */
