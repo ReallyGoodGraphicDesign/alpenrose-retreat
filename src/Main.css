@@ -895,6 +895,7 @@
 @media (max-width: 600px) {
 .section-title-alpenrose {
         opacity: 1;
+        font-size: 3rem;
         margin: 0 0 10px 0;
 }
 }
