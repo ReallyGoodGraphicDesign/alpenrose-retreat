@@ -5,8 +5,8 @@ import { useState } from "react";
 
 const navItems = [
   { href: "#alpenrose", label: "Alpenrose Retreats" },
-  { href: "#retreat-2026", label: "Spring/Summer 2026" },
-  { href: "#your-journey", label: "Your Journey" },
+  { href: "#retreat", label: "Spring/Summer 2026" },
+  { href: "#journey", label: "Your Journey" },
   { href: "#investment", label: "Investment" },
   { href: "#accommodations", label: "Accommodations" },
   { href: "#logistics", label: "Logistics" },

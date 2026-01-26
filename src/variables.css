@@ -1,6 +1,6 @@
 /* #region BUTTONS */     
 button, .button {
-        background-color: var(--button-bg);
+        background-color: var(--button-bg2);
         color: var(--button-text);
         border: none;
         margin: 0;
@@ -18,16 +18,16 @@ button, .button {
 }  
 @media (hover: hover) and (pointer: fine) {
 button:hover, .button:hover {
-        background-color: var(--button-bg-hover);
+        background-color: var(--button-bg2-hover);
         color: var(--button-text-hover);
 }
 }
 button:active, .button:active {
-        background-color: var(--button-bg-active);
+        background-color: var(--button-bg2-active);
         color: var(--button-text-active);
 }
 .learn-more-button {
-        margin: 0 0 0 0;
+        margin: 0;
         padding: 20px 20px;
         font-weight: bold;
 }  
@@ -46,7 +46,7 @@ button:active, .button:active {
 }
 .learn-more-button-alpenrose {
         background: var(--learn-more-button-alpenrose-bg);
-        margin: 0 0 8px 0;
+        margin: 0;
 }  
 @media (min-width: 601px) and (max-width: 1024px) {
 .learn-more-button-alpenrose {
@@ -168,12 +168,18 @@ button:active, .button:active {
         --button-bg: rgba(var(--alpenrose-1-alpha),.25);
         --button-bg-hover: rgba(var(--alpenrose-1-alpha),.25);
         --button-bg-active: rgba(var(--alpenrose-1-alpha),.25);
+        --button-bg2: rgba(255,255,255,.5);
+        --button-bg2-hover: rgba(255,255,255,.8);
+        --button-bg2-active: rgba(255,255,255,1);
         --button-text: var(--header-footer-text);        
         --button-text-hover: rgb(255, 255, 255);        
         --button-text-active: rgba(255,255,255,1);
         --learn-more-button-alpenrose-bg: #d982b346; 
         --learn-more-button-alpenrose-bg-hover: #d982b36f; 
         --learn-more-button-alpenrose-bg-active: #d982b3ba; 
+        --learn-more-button-alpenrose-bg2: #d982b346; 
+        --learn-more-button-alpenrose-bg2-hover: #d982b36f; 
+        --learn-more-button-alpenrose-bg2-active: #d982b3ba; 
         --list_close_btn_bg: rgba(var(--alpenrose-1-alpha),0);
         --list_close_btn_bg_hover: rgba(var(--alpenrose-1-alpha),.3);
         --list_close_btn_bg_active: rgba(var(--alpenrose-1-alpha),.7);
@@ -248,6 +254,9 @@ button:active, .button:active {
         --row-bg: yellow;
         --image-panel-bg: rgb(139, 204, 139);
         --text-panel-bg: red;
+        --text-panel-a: pink;
+        --text-panel-b: lightgreen;
+        --text-panel-c: lightblue;
 }
 /* #region MASTER_COLORS */       
 :root {
@@ -258,7 +267,6 @@ button:active, .button:active {
         --alpenrose-2-alpha: 141,153,139;
         --alpenrose-3: rgb(217,194,89);
         --alpenrose-3-alpha: 217,194,89;
-
 }
 /* #endregion MASTER_COLORS */       
 /* #endregion COLORS */       
