@@ -4,7 +4,7 @@ function Main() {
 return (
 <div className="main">
         <div className="text-panel text-panel-alpenrose" id="alpenrose">
-                <h1 className="section-title-alpenrose">No Stretch</h1>
+                <h1 className="section-title-alpenrose">20px</h1>
                 <p className="section-text-alpenrose">Description of the overall company goes here. Step into a space designed for pause, perspective, and possibility. This is an invitation to step away from the noise and reconnect with what matters most. Nothing here is rushed, prescribed, or performative. The experience begins the moment you arrive.</p>
                 <button className="learn-more-button learn-more-button-alpenrose"><p className="learn-more">Learn More</p></button>
         </div>
