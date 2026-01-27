@@ -44,7 +44,7 @@
 }
 }
 .image-panel p { 
-        opacity: 0;
+        opacity: 0.8;
         color: rgb(255, 0, 208);
         background-color: white;
         width: 22px;
@@ -175,11 +175,13 @@
 @media (min-width: 601px) and (max-width: 1024px) {
 .panel-7 {
         opacity: 1;
+        grid-column: span 12;
 }
 }
 @media (max-width: 600px) {
 .panel-7 {
         opacity: 1;
+        grid-column: span 12;
 }
 }
 .panel-8 {
@@ -344,11 +346,13 @@
 @media (min-width: 601px) and (max-width: 1024px) {
 .panel-18 {
         opacity: 1;
+        grid-column: span 12;
 }
 }
 @media (max-width: 600px) {
 .panel-18 {
         opacity: 1;
+        grid-column: span 12;
 }
 }
 .panel-19 {
@@ -540,11 +544,31 @@
 }
 @media (min-width: 601px) and (max-width: 1024px) {
 .panel-31 {
+        display: none;
         opacity: 1;
 }
 }
 @media (max-width: 600px) {
 .panel-31 {
+        display: none;
+        opacity: 1;
+}
+}
+.panel-31-tm {
+        display: none;
+        background-image: var(--photo-31);
+        background-position: calc(50% + 0px) calc(50% - 0px);
+        grid-column: span 8;
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+.panel-31-tm {
+        display: block;
+        opacity: 1;
+}
+}
+@media (max-width: 600px) {
+.panel-31-tm {
+        display: block;
         opacity: 1;
 }
 }

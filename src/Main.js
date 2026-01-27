@@ -4,7 +4,7 @@ function Main() {
 return (
 <div className="main">
         <div className="text-panel text-panel-alpenrose" id="alpenrose">
-                <h1 className="section-title-alpenrose">Alpenroser Retreats</h1>
+                <h1 className="section-title-alpenrose">Alpenrose Retreats</h1>
                 <p className="section-text-alpenrose">Description of the overall company goes here. Step into a space designed for pause, perspective, and possibility. This is an invitation to step away from the noise and reconnect with what matters most. Nothing here is rushed, prescribed, or performative. The experience begins the moment you arrive.</p> <p className="section-text-alpenrose">Step into a space designed for pause? Is this an invitation to step away from the noise? Reconnect with what matters most! Nothing here is rushed, prescribed, or performative.</p>
                 <button className="learn-more-button learn-more-button-alpenrose"><p className="learn-more">Learn More</p></button>
         </div>
@@ -20,6 +20,7 @@ return (
         <div className="image-panel panel-7"><p>7</p></div>
         <div className="image-panel panel-31"><p>31</p></div>
         <div className="image-panel panel-18"><p>18</p></div>
+        <div className="image-panel panel-31-tm"><p>31</p></div>
         <div className="text-panel text-panel-journey" id="journey">
                 <h2 className="section-title">Your Journey</h2>
                 <p className="section-text">No two journeys are meant to look the same. This experience meets you exactly where you are, offering space for reflection, connection, and renewal. You'll move at a pace that feels intentional and grounded. What unfolds is yours to define.</p> 
