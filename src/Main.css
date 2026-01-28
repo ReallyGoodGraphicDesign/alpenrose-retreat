@@ -45,7 +45,7 @@
 }
 }
 .image-panel p { 
-        opacity: 0;
+        opacity: 0.65;
         color: rgb(255, 0, 208);
         background-color: white;
         width: 22px;
@@ -97,11 +97,13 @@
 @media (min-width: 601px) and (max-width: 1024px) {
 .panel-2 {
         opacity: 1;
+        grid-column: span 24;
 }
 }
 @media (max-width: 600px) {
 .panel-2 {
         opacity: 1;
+        grid-column: span 24;
 }
 }
 .panel-3 {

@@ -179,7 +179,7 @@ button:active, .button:active {
 
 /* #region COLORS */      
 :root[data-theme='push_verify'] {
-        --button-bg3: linear-gradient(90deg, #2bb700, #000000, #05dbcd); 
+        --button-bg3: linear-gradient(90deg, #000567, #000000, #05dbcd); 
 }
 :root, :root[data-theme='actual'] {
         --button-bg: rgba(var(--alpenrose-1-alpha),.25);
