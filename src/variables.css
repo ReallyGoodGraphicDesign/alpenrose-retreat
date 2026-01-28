@@ -279,6 +279,10 @@ button:active, .button:active {
         --text-panel-b: lightgreen;
         --text-panel-c: lightblue;
 }
+:root[data-theme='push_verify'] {
+        --button-bg3: linear-gradient(90deg, #fc27a0, #b0c6f1, #9bfcf6);
+
+}
 /* #region MASTER_COLORS */       
 :root {
         /* COPY THESE FROM .ASE ONLY */
