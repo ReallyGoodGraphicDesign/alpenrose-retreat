@@ -45,7 +45,7 @@
 }
 }
 .image-panel p { 
-        opacity: 0.65;
+        opacity: 0;
         color: rgb(255, 0, 208);
         background-color: white;
         width: 22px;
