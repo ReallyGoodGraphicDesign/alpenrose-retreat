@@ -8,7 +8,7 @@ const navItems = [
   { href: "#journey", label: "Your Journey" },
   { href: "#investment", label: "Investment" },
   { href: "#accommodations", label: "Accommodations" },
-  { href: "#logistics", label: "Logistics" },
+  { href: "#our_story", label: "Our Story" },
 ];
 
 function Header() {
@@ -43,17 +43,17 @@ function Header() {
             <i className="bi bi-x-lg"></i>
           </button>
 
-<nav className="mobile-nav">
-  {navItems.map(({ href, label }) => (
-    <a
-      key={href}
-      href={href}
-      onClick={handleNavClick}
-    >
-      {label}
-    </a>
-  ))}
-</nav>
+        <nav className="mobile-nav">
+        {navItems.map(({ href, label }) => (
+        <a
+        key={href}
+        href={href}
+        onClick={handleNavClick}
+        >
+        {label}
+        </a>
+        ))}
+        </nav>
         </div>
       )}
     </header>

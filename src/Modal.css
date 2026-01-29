@@ -1,0 +1,85 @@
+/* Overlay covers entire viewport */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Modal container */
+.modal {
+  background: #ffffff;
+  color: #111;
+
+  width: 100%;
+  max-width: 720px;
+  max-height: 85vh;
+
+  overflow-y: auto;
+
+  border-radius: 6px;
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.2);
+
+  padding: 0;
+  box-sizing: border-box;
+
+  position: relative;
+}
+
+.modal-header {
+        position: sticky;
+        top: 0;
+        background: rgb(255, 255, 255); /* important */
+        z-index: 2;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 8px;
+        height: 38px;
+}
+.modal-close {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        background: transparent;
+        border: none;
+        font-size: 1.5rem;
+        line-height: 1;
+        cursor: pointer;
+        color: #666;
+}
+.modal-close:hover {
+  color: #000;
+}
+.modal-content {
+        opacity: 1;
+        padding: 14px 20px 20px 20px;
+}
+.modal h2 {
+  margin: 0 0 16px 0;
+  font-size: 1.75rem;
+  line-height: 1.2;
+}
+.modal p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+@media (max-width: 600px) {
+  .modal {
+    padding: 24px 16px;
+    max-height: 90vh;
+  }
+
+  .modal h2 {
+    font-size: 1.5rem;
+  }
+}

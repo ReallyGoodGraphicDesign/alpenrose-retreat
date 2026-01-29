@@ -1,18 +1,18 @@
-import "./SectionModal.css";
+import Modal from "./Modal";
 
 function SectionModal({ section, onClose }) {
   if (!section) return null;
 
   return (
-    <div className="modal-overlay" onClick={onClose}>
-      <div className="modal" onClick={e => e.stopPropagation()}>
-        <button className="modal-close" onClick={onClose}>
-          ×
-        </button>
-        <h2>{section.title}</h2>
-        <p>{section.long_text || section.text}</p>
-      </div>
-    </div>
+    <Modal onClose={onClose}>
+      <h2>{section.title}</h2>
+
+      {(section.long_text || section.text)
+        .split("\n")
+        .map((paragraph, i) => (
+          <p key={i}>{paragraph}</p>
+        ))}
+    </Modal>
   );
 }
 
